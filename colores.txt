@@ -1,0 +1,4 @@
+background: #B2BCFE;
+background: -webkit-radial-gradient(bottom, #B2BCFE, #143CC3);
+background: -moz-radial-gradient(bottom, #B2BCFE, #143CC3);
+background: radial-gradient(to top, #B2BCFE, #143CC3);

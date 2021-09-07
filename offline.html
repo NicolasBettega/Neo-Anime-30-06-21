@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Bettega Nicolas | DWN3A PWA</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- <link rel="stylesheet" type="text/css" href="css/estilo.css"> -->
+  <link rel="stylesheet" href="js/game-memory/style.css">
+
+</head>
+
+<body>
+  <section class="bg-danger text-center text-white">
+    <h1 class="h1">Neo Anime</h1>
+    <p class="h4 pb-3">El cache fallo puedes esperar o jugar un mini juego de memoria.</p>
+  </section>
+  <!-- partial:index.partial.html -->
+
+  <div class="wrap ">
+    <div class="game"></div>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <h2 class="winner">Winner</h2>
+        <button class="restart">Jugar de nuevo?</button>
+      </div>
+    </div>
+
+  </div><!-- End Wrap -->
+  <!-- partial -->
+  <script src="js/register-sw.js"></script>
+  <script src='js/game-memory/jquery.min.js'></script>
+  <script src="./js/game-memory/script.js"></script>
+
+</body>
+
+</html>
